@@ -1,7 +1,7 @@
 @props(['price' => ''])
 
 <div class="car-item card">
-    <a href="/view.html">
+    <a href="{{ route('car.show', 1) }}">
       <img
         src="/img/cars/Lexus-RX200t-2016/1.jpeg"
         alt=""
